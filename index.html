@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Front page</title>
+        <center><h1>DYNAMIC FORM</h1></center>
+    </head>
+    <body>
+        <style>
+            body{
+                background-color: rgb(14, 239, 239);
+                background-size: 100%;
+                background-repeat: no-repeat;
+            }
+            div{
+                background-color: rgb(128, 237, 210);
+                width: 400px;
+                height: 400px;
+                border: 400px;
+                padding: 30px;
+            }
+        </style><center><div>
+        <form>
+            <h2>Enter your username</h2>
+            <input type=" your Username"  required placeholder="your Username"><br>
+            <h2>Enter your email</h2>
+            <input type="email id" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required placeholder="email id"><br><br>
+            <h2>Enter your password</h2>
+            <input type="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+            required placeholder="password"><br><br>
+            <button type="submit">Submit</button>
+        </center>
+            </div>
+   </form>
+    </body>
+</html>
